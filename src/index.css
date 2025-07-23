@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: var(--background);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+:root {
+  --background: url("./assets/light-background-img.jpg");
+}
