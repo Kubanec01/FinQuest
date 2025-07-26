@@ -18,10 +18,16 @@ body {
   --color-secondary: #c6d8d8;
   --color-neonYellow-500: var(--color-neonYellow-500);
   --color-neonPurple-500: var(--color-neonPurple-500);
+  --color-pastelShadowGreen: var(--color-pastelShadowGreen);
+  --color-pastelGreen: var(--color-pastelGreen);
+  --color-pastelGreen-500: var(--color-pastelGreen-500);
 }
 
 :root {
   --background: url("./assets/light-background-img.jpg");
-  --color-neonYellow-500: #ccf77a;
+  --color-neonYellow-500: #ddff77;
   --color-neonPurple-500: #4831d4;
+  --color-pastelShadowGreen: #ebfff5d7;
+  --color-pastelGreen: #ebfff5;
+  --color-pastelGreen-500: #84ab8a;
 }
