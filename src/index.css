@@ -15,6 +15,7 @@ body {
   --color-secondary: var(--color-secondary);
   --color-tertiary: var(--color-tertiary);
   --color-tertiary-500: var(--color-tertiary-500);
+  --color-neonYellow: var(--color-neonYellow);
   --color-neonYellow-500: var(--color-neonYellow-500);
   --color-neonPurple-500: var(--color-neonPurple-500);
   --color-pastelShadowGreen: var(--color-pastelShadowGreen);
@@ -29,6 +30,7 @@ body {
   --color-secondary: #c2d8d8;
   --color-tertiary: #546c8c;
   --color-tertiary-500: #385070;
+  --color-neonYellow: #e7fda5;
   --color-neonYellow-500: #e2ff8a;
   --color-neonPurple-500: #4831d4;
   --color-pastelShadowGreen: #ebfff5d7;
