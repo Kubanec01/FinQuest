@@ -7,8 +7,8 @@ const boldFont =
 const Hero = () => {
   return (
     <div className="mx-auto h-[100vh] w-full flex justify-start items-center bg-secondary">
-      <section className="w-[80%] max-w-[1500px] mx-auto">
-        <h1 className="text-8xl w-[90%]">
+      <section className="w-[90%] max-w-[1700px] mx-auto">
+        <h1 className="text-9xl w-[80%]">
           <span className={boldFont}>Learn to invest</span>. No boredom, no
           stress – just <span className={boldFont}>fun</span> and{" "}
           <span className={`${boldFont} before:top-4`}>progress</span>. <br />{" "}
