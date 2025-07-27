@@ -25,7 +25,7 @@ body {
 
 :root {
   --background: url("./assets/light-background-img.jpg");
-  --color-primary: rgb(42, 44, 61);
+  --color-primary: rgb(43, 45, 69);
   --color-secondary: #c2d8d8;
   --color-tertiary: #546c8c;
   --color-tertiary-500: #385070;

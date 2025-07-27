@@ -33,9 +33,9 @@ const data = [
 
 const LevelsBarsSection = () => {
   return (
-    <section className="w-full h-[800px] bg-[#fafafa] overflow-hidden flex items-center justify-center">
+    <section className="w-full h-[820px] bg-[#fafafa] overflow-hidden flex items-center justify-center pt-10">
       <div className="h-full w-[50%] flex items-center">
-        <section className="mx-auto ml-[240px] -mt-[120px]">
+        <section className="mx-auto ml-[240px] -mt-[140px]">
           <h1 className="font-sans text-lg text-[#000000ce]">
             Explore. Learn. Progress.
           </h1>
