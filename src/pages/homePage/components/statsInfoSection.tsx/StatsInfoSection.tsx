@@ -3,7 +3,7 @@ import StatsInfoTitle from "./StatsInfoTitle";
 
 const StatsInfoSection = () => {
   return (
-    <div className="w-full h-[4000px]">
+    <div className="w-full">
       <StatsInfoTitle />
       <MainStatsInfo />
     </div>

@@ -3,7 +3,7 @@ import AnimatedButton from "../../../../components/AnimatedButton";
 
 const MainStatsInfo = () => {
   return (
-    <div className="h-[1000px] bg-primary flex items-center justify-center p-3">
+    <div className="h-[900px] bg-primary flex items-center justify-center p-3">
       <section className="w-[50%] h-full flex justify-center items-center">
         <div className="w-[500px] -mt-[130px] ml-[200px]">
           <h2 className="text-neonYellow-500 text-7xl">Performance Overview</h2>
@@ -21,7 +21,7 @@ const MainStatsInfo = () => {
         </div>
       </section>
       <section className="w-[50%] h-full flex items-center justify-center">
-        <div className="border border-[white] rounded-[20px] w-[500px] h-[700px] mr-[100px]"></div>
+        <div className="border border-[white] rounded-[20px] w-[500px] h-[660px] mr-[100px]"></div>
       </section>
     </div>
   );
