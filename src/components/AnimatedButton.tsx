@@ -10,7 +10,7 @@ const AnimatedButton = ({ text, className }: AnimatedButtonProps) => {
     <button
       className={`relative font-sans text-2xl duration-150 ease-linear w-[150px] h-[50px] rounded-[30px] cursor-pointer ${className}`}
     >
-      <span className="w-full h-full absolute left-[50%] -translate-x-[50%] top-1.5 hover:left-[44%] duration-150 ease-linear">
+      <span className="w-full h-full absolute left-[50%] -translate-x-[50%] top-1.5 hover:left-[45%] duration-150 ease-linear">
         {text}
       </span>
     </button>
