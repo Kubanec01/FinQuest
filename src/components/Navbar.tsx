@@ -6,7 +6,7 @@ const buttonStyle =
 
 const Navbar = () => {
   return (
-    <div className="fixed top-[60px] left-0 w-full">
+    <div className="fixed top-[60px] left-0 w-full hidden">
       <div className="mx-auto w-[600px] border-b-2 border-black">
         <ul className="flex items-center justify-between gap-10 mx-auto w-[80%] text-xl uppercase">
           <li className={buttonStyle}>Stats</li>

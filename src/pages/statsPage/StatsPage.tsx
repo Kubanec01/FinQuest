@@ -12,3 +12,5 @@ const StatsPage = () => {
 };
 
 export default StatsPage;
+
+// ! tato sekcia pojde ako posledna

@@ -2,7 +2,7 @@ import { Parallax } from "react-scroll-parallax";
 
 const StatsInfoTitle = () => {
   return (
-    <section className="relative  w-full h-[780px] mx-auto flex flex-col items-center justify-center bg-quaternary overflow-hidden">
+    <section className="relative  w-full h-[720px] mx-auto flex flex-col items-center justify-center bg-quaternary overflow-hidden">
       <h1 className="text-9xl uppercase text-center z-20 text-[white]">
         More Than
       </h1>

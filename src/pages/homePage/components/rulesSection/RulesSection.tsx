@@ -28,7 +28,7 @@ const RulesSection = () => {
           </div>
         </section>
         <ul className="w-full flex flex-col justify-between items-end pr-[90px] gap-[400px] mb-[220px]">
-          <li className="border w-[440px] h-[500px] rounded-[20px] mt-[500px]"></li>
+          <li className="border w-[440px] h-[500px] rounded-[20px] mt-[70px]"></li>
           <li className="border w-[440px] h-[500px] rounded-[20px]"></li>
           <li className="border w-[440px] h-[500px] rounded-[20px]"></li>
         </ul>
