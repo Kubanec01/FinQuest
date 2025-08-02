@@ -1,17 +1,12 @@
-import LevelsBarsSection from "./components/levelsbarsSection/LevelsBarsSection";
+import React from "react";
 import Hero from "./components/Hero";
-import StatsInfoSection from "./components/statsInfoSection.tsx/StatsInfoSection";
-import RulesSection from "./components/rulesSection/RulesSection";
-import LinksSection from "./components/LinksSection";
+import Navbar from "./components/Navbar";
 
 const HomePage = () => {
   return (
     <>
+      <Navbar />
       <Hero />
-      <LevelsBarsSection />
-      <StatsInfoSection />
-      <RulesSection />
-      <LinksSection />
     </>
   );
 };
