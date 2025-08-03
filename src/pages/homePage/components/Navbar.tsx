@@ -27,7 +27,7 @@ const Navbar = () => {
   const setLinkId = (id: Position) => setLink(id);
 
   return (
-    <section className="fixed top-0 left-0 w-full h-[100px] font-sans">
+    <section className="fixed z-[100000] top-0 left-0 w-full h-[100px] font-sans">
       <div className="w-[600px] h-[50px] mt-[20px] rounded-full mx-auto relative">
         <span
           className={`absolute top-[11%] w-[100px] ${position()} duration-200 h-[40px] rounded-full bg-[#ffffff78] z-[900]`}
