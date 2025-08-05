@@ -1,14 +1,11 @@
 import React from "react";
 import GamesBars from "./components/GamesBars";
+import SectionTitle from "../../../../components/SectionTitle";
 
 const PlaySection = () => {
   return (
-    <section className="w-[90%] max-w-[1400px] mx-auto h-[3000px] mt-[160px] mb-[200px]">
-      <div className="w-full">
-        <h1 className="font-sans text-[43px] text-[#3333338d] relative">
-          Play
-        </h1>
-      </div>
+    <section className="w-[90%] max-w-[1400px] mx-auto mt-[160px]">
+      <SectionTitle text="Play" />
       <div className="w-full text-[#174a51]">
         <h2 className="font-bold text-7xl text-center mt-[140px]">
           Choose Your Path
