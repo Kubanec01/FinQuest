@@ -47,7 +47,7 @@ const GamesBars = () => {
         ))}
       </ul>
       <div className="w-full flex justify-center">
-        <div className="w-[180px] h-[52px] bg-[#000000a7] rounded-full mt-[34px] flex items-center justify-between px-7 select-none">
+        <div className="w-[180px] h-[52px] bg-[#383838] rounded-full mt-[34px] flex items-center justify-between px-7 select-none">
           {gameLevels.map((i, index) => (
             <button
               onClick={() => scrollToLevel(index)}
@@ -58,7 +58,7 @@ const GamesBars = () => {
                     ? "scale-150"
                     : "scale-100 cursor-pointer hover:scale-120"
                 }
-                w-[12px] aspect-square rounded-full bg-[#ffffff55] duration-200`}
+                w-[12px] aspect-square rounded-full bg-[#9d9d9de9] duration-200`}
             ></button>
           ))}
         </div>
