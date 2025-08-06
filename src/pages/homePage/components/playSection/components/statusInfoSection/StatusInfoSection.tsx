@@ -4,10 +4,8 @@ import SectionTitle from "../../../../../../components/SectionTitle";
 const StatusInfoSection = () => {
   const [isHovered, setIsHovered] = useState(false);
 
-  console.log(isHovered);
-
   return (
-    <div className="border h-[1500px] w-[90%] max-w-[1400px] mx-auto mt-[130px]">
+    <div className="w-[90%] max-w-[1400px] mx-auto mt-[130px]">
       <SectionTitle text="Status" />
       <div className="w-full text-[#174a51]">
         <h2 className="font-bold text-7xl text-center mt-[140px]">
@@ -17,8 +15,8 @@ const StatusInfoSection = () => {
       {/* STATS INFO BAR */}
       <div
         className={`w-full max-w-[960px] h-[500px] ${
-          isHovered ? "bg-[#b686c5]" : "bg-[#b793c2]"
-        } duration-200 ease-in-out mt-[60px] overflow-hidden mx-auto flex justify-between items-center rounded-[14px]`}
+          isHovered ? "bg-[#c488d6]" : "bg-[#b686c5]"
+        } duration-300 ease-in-out mt-[60px] overflow-hidden mx-auto flex justify-between items-center rounded-[14px]`}
       >
         <div className="w-[50%] h-full">
           <div className="mt-[90px] ml-[60px]">
@@ -53,10 +51,9 @@ const StatusInfoSection = () => {
           ></div>
         </div>
       </div>
-      <button className="mx-auto w-full font-sans text-xl text-[#8d3dbe] mt-[40px] hover:underline cursor-pointer">
+      <button className="mx-auto w-full font-sans text-xl text-[#8d3dbe] mt-[40px] underline cursor-pointer">
         Create an account
       </button>
-      {/* toto spravim ako normalny button, ked tam je lenk textovy link tak to vobec nieje dobre vidiet */}
     </div>
   );
 };
