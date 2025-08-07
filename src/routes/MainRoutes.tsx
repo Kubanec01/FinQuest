@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router";
 
 const HomePage = lazy(() => import("../pages/homePage/HomePage"));
+const RulesPage = lazy(() => import("../pages/rulesPage/RulesPage"));
 
 const MainRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const MainRoutes = () => {
     >
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="rules" element={<RulesPage />} />
       </Routes>
     </Suspense>
   );

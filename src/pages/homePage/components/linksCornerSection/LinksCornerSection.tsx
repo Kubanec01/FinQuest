@@ -7,7 +7,7 @@ import LinkedInBar from "./components/LinkedInBar";
 
 const LinksCornerSection = () => {
   return (
-    <section className="mt-[200px] w-[90%] max-w-[1400px] h-[5000px] mx-auto">
+    <section className="mt-[200px] mb-[150px] w-[90%] max-w-[1400px] mx-auto">
       <SectionTitle text="More Info" />
       <div className="w-full text-[#174a51]">
         <h2 className="font-bold text-7xl text-center mt-[140px]">
